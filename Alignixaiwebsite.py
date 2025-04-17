@@ -64,14 +64,14 @@ st.header("Request a Demo / Get in Touch")
 st.write("If you're interested in seeing how AlignixAI can support your business, fill out the form below.")
 
 contact_form = """
-<form action="https://formspree.io/f/your-form-id" method="POST">
-  <label for="name">Your Name</label><br>
-  <input type="text" name="name" required><br>
-  <label for="email">Your Email</label><br>
-  <input type="email" name="email" required><br>
-  <label for="message">Message</label><br>
-  <textarea name="message" rows="5" required></textarea><br>
-  <button type="submit">Send</button>
+<form action="https://formspree.io/f/mkgjalon" method="POST">
+  <label for=\"name\">Your Name</label><br>
+  <input type=\"text\" name=\"name\" required><br>
+  <label for=\"email\">Your Email</label><br>
+  <input type=\"email\" name=\"email\" required><br>
+  <label for=\"message\">Message</label><br>
+  <textarea name=\"message\" rows=\"5\" required></textarea><br>
+  <button type=\"submit\">Send</button>
 </form>
 """
 st.markdown(contact_form, unsafe_allow_html=True)
